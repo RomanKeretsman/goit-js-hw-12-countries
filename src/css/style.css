@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+}
+.search-wrap {
+  width: 600px;
+  padding: 15px;
+  text-align: center;
+  margin: 0 auto;
+  background: rgb(209, 195, 153);
+  background: radial-gradient(
+    circle,
+    rgba(209, 195, 153, 1) 0%,
+    rgba(200, 112, 45, 0.5466561624649859) 100%
+  );
+  border-radius: 10px;
+}
